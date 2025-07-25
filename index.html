@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" href="data:image/svg+xml,
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+  <circle cx='50' cy='50' r='45' fill='%236349f5'/>
+  <text x='50' y='65' font-size='55' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>P</text>
+</svg>">
+
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/proprieties.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/KeyFrames.css">
+    
+    <title>Pradeep</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="hamburguer" id="Close-menu">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Jump</span>
+        </div>
+
+        <header>
+            <div class="img-wrapper">
+                <img src="./assets/images/backgroundimg.jpg" alt="">
+            </div>
+            <div class="banner">    
+                <h1 class="title-style">Hello, I'm Pradeed</h1>  
+                <p>Frontend Developer</p>
+                <button class="ButtonCustom" id="button-banner">Resume</button>
+            </div> 
+
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li id="menu-1" class="menu-item"><a id="Close-menu" href="#" class="menu-link">Home</a></li>
+                    <li id="menu-2" class="menu-item"><a id="Close-menu" href="#skills" class="menu-link">Skills</a></li>
+                    <li id="menu-3" class="menu-item"><a id="Close-menu" href="#projets" class="menu-link">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a id="social-1" href="https://github.com/pradeep-003"><i class="fab fa-github"></i></a>
+                <a id="social-2" href="https://www.instagram.com/pradeep_bisht03"><i class="fab fa-instagram"></i></a>
+                <a id="social-3" href="https://www.linkedin.com/in/pradeep-c00ding1njava/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-conhecimentos"  id="skills" >
+            <div class="sessao-header"id="conhecimentos">
+                <h1 class="title-style">SKills</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                       <i class="fab fa-html5" style="color: #e34c26; font-size: 92px;"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p> semantic tags, forms, tables, media elements, iframes, accessibility, SEO-friendly structure, and integration with CSS and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt" style="color: #264de4; font-size: 92px;"></i>
+                        <h3>Css</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>utility-first styling with Tailwind CSS, Flexbox, Grid, transitions, animations, custom properties (variables), media queries, and component-based design.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js-square" style="color: #f7df1e; font-size: 92px;"></i>
+
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>DOM manipulation, asynchronous programming with promises and async/await, event handling, and creating dynamic, interactive web applications.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-react" style="color: #61dafb; font-size: 92px;"></i>
+                        <h3>ReactJS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>component-based UIs using React, with state management (useState, useEffect, Context API), routing, hooks, form handling, and integration with APIs.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github" style="color: #181717; font-size: 92px;"></i>
+                        <h3>Git e GitHub </h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>version control using Git, managing repositories on GitHub, collaborating via pull requests, branching, and issue tracking.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fa-brands fa-java" style="color: #f89820; font-size: 92px;"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p> arrays, linked lists, trees, recursion, sorting, searching, and problem-solving on platforms like LeetCode.</p>
+                    </div>
+                </div>
+                <div class="imagemFundo">
+                    <i class="fa-solid fa-terminal" style="color: #10b981; font-size: 152px;"></i>             
+                </div>
+        </section>
+
+
+        <section class="sessao-projetos" id="projets" >
+            <div class="projetos-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="cards">
+               
+
+
+                    <div  class="card" data-anime="up">
+                        <div class="card-img-wrapper">
+                            <img src="./media/proj1.jpg" alt="">
+                        </div>
+                        <div class="background">
+                            <div class="card-info">
+                                <h2>project1</h2>
+                                <h3>REACT</h3>
+                                <P>Built a web app for GGSIPU Tech Fest to manage events, using React, Tailwind CSS, Figma, and GitHub.</P>
+                                <a href="https://vespera-ivory.vercel.app/" target="_blank" class="ButtonSend">TECH FEST</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj2.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>project2</h2>
+                            <h3>HTML5, CSS, JS</h3>
+                            <P>Rebuilt Obys site with GSAP, Shery.js, and custom scroll/cursor effects for smooth UI.</P>
+                            <a href="https://obys-agency-fawn.vercel.app/" target="_blank" class="ButtonSend">Obys Agency</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj3.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>project3</h2>
+                            <h3>MERN, Socket</h3>
+                            <P>Built a real-time chat app with WebSocket, JWT authentication, and encrypted messages.
+
+</P>
+                            <a href="https://realtime-chat-app-db4a.onrender.com/" target="_blank" class="ButtonSend">Chat APP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj4.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>project4</h2>
+                            <h3>Context API, CRUD</h3>
+                            <P>Built a Product Manager app with React and Tailwind, supporting full CRUD using localStorage.</P>
+                            <a href="https://hands-on-project-y8yd.vercel.app/" target="_blank" class="ButtonSend">Produts manager</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        
+
+        <section class="section-contact" id="contato">
+            <div class="contact-wrapper" data-anime="up">
+                <div class="contact-left"></div>
+                <div class="contact-right">
+                    <h1>contato</h1>
+                    <form class="form-contact">
+                        <div class="input-group">
+                            <input id="nome" type="text" class="field">
+                            <label  for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input id="email" type="email" class="field">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="mensage" class="field"></textarea>
+                            <label for="mensage" class="field-label">Mensagem</label>
+                        </div>
+                        <button class="ButtonCustom" type="send">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <section class="section-budget" id="orcamento">
+            <div class="box"></div>
+            <div class="budget-wrapper">
+                <div class="header-budget" data-anime="left">
+                    <h1>Faça seu orçamento</h1>
+                </div>
+                
+                <form class="form-budget">
+                    
+                    <div class="qtde-page" data-anime="right" >
+                        <label for="qtde">Quantidade de páginas:</label> 
+                        <input type="number" name="qtde" id="qtde" min="1" max="100"> <br/><br/>
+                        <label for="js">Preciso de um script JS:</label>
+                        <input class="check" checked="" type="checkbox" name="js" id="js"> <br/><br/><br/> 
+                    </div>
+                    
+                    
+                    <div class="group-layout" data-anime="up">
+                        <label>Layout</label> 
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Sim, preciso de um layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-não">Não preciso de um layout</label>
+                        </div><br/>
+                        
+                        <div>
+                            <label for="prazo">Prazo</label>
+                            <input type="range" name="prazo" id="prazo" min="1" max="10">
+                        </div>
+                        
+                        <div class="btn">
+                            <button type="submit" id="envio-form-orc" class="ButtonCustom">enviar</button>
+                        </div>
+                        
+                        <label id="preco"> R$ 0,00</label>
+                        
+                    </div>
+                     
+                </form>
+        </section> 
+
+        <footer>
+            <div class="footer--area">
+                <div class="footer--item area1">
+                    <div class="footer-social">
+                        <a href=""><img src="assets/images/twitter.png" /></a>
+                        <a href=""><img src="assets/images/linkedin.png" /></a>
+                        <a href=""><img src="assets/images/facebook.png" /></a>
+                        <a href=""><img src="assets/images/googleplus.png" /></a>
+                        <a href=""><img src="assets/images/pinterest.png" /></a>
+                    </div>
+                </div>
+                <div class="footer--item area2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique esse aperiam tempora ad molestias expedita reprehenderit aliquam, earum optio inventore quos! Quos porro voluptas itaque ratione enim esse blanditiis reprehenderit.</p>
+                </div>
+                <div class="footer--item area3">
+                    <form method="POST" id="send-email">
+                        <input id="email" type="email" name="email" placeholder="EMAIL TO SUBSCRIBE" autocomplete="email" />
+                        <button class="button" form="send-email">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+            
+
+        
+
+<div class="bg-[#070707] text-white shadow-lg">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center  gap-6 md:gap-0">
+    
+    <!-- Brand -->
+    <div class="text-center md:text-left">
+      <h2 class="text-xl font-bold text-white">Pradeep Singh</h2>
+      <p class="text-sm mt-1">Frontend Developer & Learner</p>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="flex flex-wrap justify-center gap-6 text-sm">
+      <li><a href="#" class="hover:text-white transition">Home</a></li>
+     
+      <li><a href="#projets" class="hover:text-white transition">Project</a></li>
+      <li><a href="#skills" class="hover:text-white transition">skills</a></li>
+    </ul>
+
+    <!-- Social Icons -->
+    <div class="flex gap-4 text-xl">
+      <a href="https://github.com/pradeep-003" target="_blank" class="hover:text-white transition">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/pradeep-singh" target="_blank" class="hover:text-white transition">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:pradeep50953@gmail.com" class="hover:text-white transition">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Bottom Line -->
+  <div class="text-center text-sm text-gray-500 mt-8">
+    &copy; 2025 Pradeep Singh. All rights reserved.
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
